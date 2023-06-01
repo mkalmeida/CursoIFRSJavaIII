@@ -12,7 +12,7 @@ public class Avaliacao {
 	public static void avaliacao() {
 		
 		System.out.println("DIGITE A OPÇÃO DESEJADA:");
-		System.out.println("A-ÓTIMO" + "\n" + "B-BOM" + "\n" + "C-REGUGAR" + "\n" + "D-RUIM" + "\n" + "E-PÉSSIMO");
+		System.out.println("A-ÓTIMO" + "\n" + "B-BOM" + "\n" + "C-REGULAR" + "\n" + "D-RUIM" + "\n" + "E-PÉSSIMO");
 		opcao = input.next().charAt(0);
 		switch (opcao) {
 		case 'A':
